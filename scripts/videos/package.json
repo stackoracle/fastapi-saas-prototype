@@ -1,0 +1,13 @@
+{
+  "name": "agentic-rag-video-recorder",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Not part of the product. Records the portfolio demo video against a local dev instance of the app; output goes to demo/video.",
+  "type": "module",
+  "scripts": {
+    "install-browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
